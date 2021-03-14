@@ -2176,6 +2176,7 @@ GameObject:
   - component: {fileID: 6630144800417614303}
   - component: {fileID: 7340273919516017057}
   - component: {fileID: 3428990816659878784}
+  - component: {fileID: 8312040767833065629}
   m_Layer: 0
   m_Name: class9 physics newtons first law
   m_TagString: Untagged
@@ -2263,6 +2264,29 @@ MonoBehaviour:
   Axis: {x: 0, y: -1, z: 0}
   Space: 1
   Sensitivity: 1
+--- !u!114 &8312040767833065629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289506943790469989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Sensitivity: 1
+  Dampening: -1
+  Inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &6360334584969766368
 GameObject:
   m_ObjectHideFlags: 0

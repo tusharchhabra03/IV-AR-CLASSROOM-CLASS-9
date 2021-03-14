@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 1642938742663579112}
   - component: {fileID: 872383748345011204}
   - component: {fileID: 471980899314808289}
+  - component: {fileID: 6534706061087891844}
   m_Layer: 0
   m_Name: permanent tissue
   m_TagString: Untagged
@@ -324,6 +325,29 @@ MonoBehaviour:
   Axis: {x: 0, y: -1, z: 0}
   Space: 1
   Sensitivity: 1
+--- !u!114 &6534706061087891844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127727315621306194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Sensitivity: 1
+  Dampening: -1
+  Inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &2680213503710367328
 GameObject:
   m_ObjectHideFlags: 0

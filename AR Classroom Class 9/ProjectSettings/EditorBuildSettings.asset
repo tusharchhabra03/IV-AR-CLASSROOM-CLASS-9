@@ -8,11 +8,29 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Sst/Geography/mountain.unity
     guid: 9b8a534e795354f4abd867d01fc30055
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Science/Organization in the Living World Cell/a) Basic Unit
       of life/plant cell.unity
     guid: c4173dee45f4a214b9cd6935e456481a
   - enabled: 0
     path: Assets/Scenes/Science/Motion, Force and Work/Gravitation/Free fall acceleration.unity
     guid: bb8717d667129c5449948246ca692bcf
+  - enabled: 0
+    path: Assets/Scenes/Sst/Pol.Science/Preamble.unity
+    guid: 753ecfd5e33e09046b7f6f11234cce95
+  - enabled: 0
+    path: Assets/Scenes/Sst/Pol.Science/Electronic voting machine.unity
+    guid: 07692ad4958b9f2439b2f7f91fc50e02
+  - enabled: 0
+    path: Assets/Scenes/Science/Natural Resources Balance in nature/Soil pollution.unity
+    guid: 24764bb1ca4eee84e999374aaed6202e
+  - enabled: 0
+    path: Assets/Scenes/Science/Natural Resources Balance in nature/rainfall.unity
+    guid: 3e6a5006af435fb429a1a415051b7e1b
+  - enabled: 0
+    path: Assets/Scenes/Science/Natural Resources Balance in nature/Noise pollution.unity
+    guid: 09067840feecb464b8850517c51498ef
+  - enabled: 1
+    path: Assets/Scenes/Science/Natural Resources Balance in nature/air pollution.unity
+    guid: be7e7315783ddbe48a710cd5c23a6297
   m_configObjects: {}

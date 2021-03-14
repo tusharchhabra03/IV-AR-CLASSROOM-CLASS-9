@@ -5817,6 +5817,7 @@ GameObject:
   - component: {fileID: 8659947903834901785}
   - component: {fileID: 226215979160946127}
   - component: {fileID: 2882070299053161967}
+  - component: {fileID: 7279997530247951120}
   m_Layer: 0
   m_Name: a)Nature of Matter
   m_TagString: Untagged
@@ -5964,6 +5965,29 @@ MonoBehaviour:
   Axis: {x: 0, y: -1, z: 0}
   Space: 1
   Sensitivity: 1
+--- !u!114 &7279997530247951120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315193097240156067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Sensitivity: 1
+  Dampening: -1
+  Inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &8371243934856741139
 GameObject:
   m_ObjectHideFlags: 0

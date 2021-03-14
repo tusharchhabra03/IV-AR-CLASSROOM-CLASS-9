@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 84401774280599022}
   - component: {fileID: 7772061031236927753}
   - component: {fileID: 2890450491764760848}
+  - component: {fileID: 5694159092323053491}
   m_Layer: 0
   m_Name: air pollution
   m_TagString: Untagged
@@ -87,7 +88,7 @@ Transform:
   m_GameObject: {fileID: 747608928209616724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 3379779437975249389}
   - {fileID: 6304355062903753167}
@@ -146,6 +147,29 @@ MonoBehaviour:
   Axis: {x: 0, y: -1, z: 0}
   Space: 1
   Sensitivity: 1
+--- !u!114 &5694159092323053491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747608928209616724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Sensitivity: 1
+  Dampening: -1
+  Inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &962643945555230235
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,8 +380,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2224652693532986273}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.113, y: 0.0584, z: 0.0014}
-  m_LocalScale: {x: 0.0015786148, y: 0.0015786148, z: 0.0015786148}
+  m_LocalPosition: {x: 0.113, y: 0.0584, z: 0.0016}
+  m_LocalScale: {x: 0.00014696538, y: 0.00043500276, z: 0.0006175159}
   m_Children: []
   m_Father: {fileID: 84401774280599022}
   m_RootOrder: 9

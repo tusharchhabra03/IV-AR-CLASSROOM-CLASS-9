@@ -446,7 +446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722446450150241380}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.88, y: 1.1, z: 0}
+  m_LocalPosition: {x: -1.052, y: 1.46, z: -0.082}
   m_LocalScale: {x: 0.22710092, y: 0.22710092, z: 0.22710092}
   m_Children: []
   m_Father: {fileID: 2704805657371396792}
@@ -1527,6 +1527,7 @@ GameObject:
   - component: {fileID: 2704805657371396792}
   - component: {fileID: 438959888233363352}
   - component: {fileID: 334525682002967868}
+  - component: {fileID: 8939222827106632816}
   m_Layer: 0
   m_Name: Soil pollution.fbx ff
   m_TagString: Untagged
@@ -1543,7 +1544,7 @@ Transform:
   m_GameObject: {fileID: 3369456435710038018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 8113364479273901054}
   - {fileID: 740243870021947067}
@@ -1628,6 +1629,29 @@ MonoBehaviour:
   Axis: {x: 0, y: -1, z: 0}
   Space: 1
   Sensitivity: 1
+--- !u!114 &8939222827106632816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3369456435710038018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Sensitivity: 1
+  Dampening: -1
+  Inertia: 0
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &3385806254636115929
 GameObject:
   m_ObjectHideFlags: 0
