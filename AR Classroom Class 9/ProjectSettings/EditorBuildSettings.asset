@@ -8,14 +8,14 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Sst/Geography/mountain.unity
     guid: 9b8a534e795354f4abd867d01fc30055
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Science/Organization in the Living World Cell/a) Basic Unit
       of life/plant cell.unity
     guid: c4173dee45f4a214b9cd6935e456481a
   - enabled: 0
     path: Assets/Scenes/Science/Motion, Force and Work/Gravitation/Free fall acceleration.unity
     guid: bb8717d667129c5449948246ca692bcf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sst/Pol.Science/Preamble.unity
     guid: 753ecfd5e33e09046b7f6f11234cce95
   - enabled: 0
